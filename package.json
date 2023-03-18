@@ -1,0 +1,25 @@
+{
+  "name": "employee-tracker-database",
+  "version": "1.0.0",
+  "description": "interfaces that allow non-developers to easily view and interact with information stored in databases",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snowman271/Employee-Tracker-Database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snowman271/Employee-Tracker-Database/issues"
+  },
+  "homepage": "https://github.com/Snowman271/Employee-Tracker-Database#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^9.1.4"
+  }
+}
