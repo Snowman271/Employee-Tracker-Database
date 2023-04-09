@@ -2,10 +2,9 @@
   "name": "employee-tracker-database",
   "version": "1.0.0",
   "description": "interfaces that allow non-developers to easily view and interact with information stored in databases",
-  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,9 @@
   "homepage": "https://github.com/Snowman271/Employee-Tracker-Database#readme",
   "dependencies": {
     "console.table": "^0.10.0",
-    "inquirer": "^9.1.4"
+    "inquirer": "^8.2.5",
+    "inquirer-loop": "^0.3.0",
+    "loop": "^3.3.6",
+    "mysql2": "^3.2.0"
   }
 }
