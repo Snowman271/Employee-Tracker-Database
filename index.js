@@ -6,7 +6,7 @@ inquirer.registerPrompt("loop", require("inquirer-loop")(inquirer));
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'coby200077',
+  password: '',
   database: 'employee_db'
 });
 
